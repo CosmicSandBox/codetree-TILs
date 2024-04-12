@@ -8,4 +8,4 @@ for i in range(0, len(list_a), 1):
     sum += list_a[i]
     average = sum/(i+1)
 
-print(sum, average)
+print(sum, round(average, 1))
