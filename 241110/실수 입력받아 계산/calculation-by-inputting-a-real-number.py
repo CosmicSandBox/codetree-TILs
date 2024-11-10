@@ -1,4 +1,5 @@
 a = int(input())
 b = int(input())
+a+b
 
-print(a+b.2f)
+print(f"{a+b:.2f}")
