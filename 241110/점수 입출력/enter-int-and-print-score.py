@@ -1,2 +1,2 @@
 score = int(input())
-print(f"your score is {score}")
+print(f"Your score is {score}")
