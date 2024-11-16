@@ -1,2 +1,2 @@
 phoneNum = input().split('-')
-print(f"{0}-{2}-{1}")
+print(f"{phoneNum[0]}-{phoneNum[2]}-{phoneNum[1]}")
