@@ -4,5 +4,5 @@ if temp < 0 :
     print('ice')
 elif temp >= 100 :
     print('vapor')
-
-print('water')
+else: 
+    print('water')
