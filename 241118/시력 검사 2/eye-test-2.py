@@ -1,4 +1,4 @@
-avg = input()
+avg = float(input())
 
 if avg >= 1.0:
     print('High')
