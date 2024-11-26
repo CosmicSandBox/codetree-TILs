@@ -6,3 +6,5 @@ elif n >= 1000 :
     print("mask")
 elif n >= 500 :
     print("pen")
+else :
+    print("no")
