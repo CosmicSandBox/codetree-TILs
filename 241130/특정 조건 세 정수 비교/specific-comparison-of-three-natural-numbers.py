@@ -19,7 +19,7 @@ else :
     minimum = a
 """
 
-if a == min(a, b, c) :
+if a == min(a, b, c) : # 위에꺼 주석 해제하고 오른쪽 항에 minimum 넣어도 정답 처리됨
     print(1, end = " ")
 else :
     print(0, end = " ")
