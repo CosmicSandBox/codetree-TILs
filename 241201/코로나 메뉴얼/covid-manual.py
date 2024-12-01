@@ -2,9 +2,9 @@ a_arr = input().split()
 b_arr = input().split()
 c_arr = input().split()
 
-a_Eme = a_arr[0] == 'Y' and int(a_arr[1])이 >= 37
-b_Eme = b_arr[0] == 'Y' and int(b_arr[1])이 >= 37
-c_Eme = c_arr[0] == 'Y' and int(c_arr[1])이 >= 37
+a_Eme = a_arr[0] == 'Y' and int(a_arr[1]) >= 37
+b_Eme = b_arr[0] == 'Y' and int(b_arr[1]) >= 37
+c_Eme = c_arr[0] == 'Y' and int(c_arr[1]) >= 37
 
 #n_arr[0]이 Y이고 int(n_arr[1])이 >= 37 일때 A 이다.
 
