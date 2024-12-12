@@ -8,5 +8,5 @@ for i in range(a, b+1) :
         cnt += 1
 
 print(sum_val, end = " ")
-print(f"{sum_val/(b-a+1):.1f}")
+print(f"{sum_val/cnt:.1f}")
         
