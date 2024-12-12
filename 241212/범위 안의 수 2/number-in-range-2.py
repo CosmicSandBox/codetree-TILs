@@ -7,7 +7,7 @@ for i in range(10):
         sum_val += a
         cnt += 1
 
-print(sum_val)
+print(sum_val, end= " ")
 print(f"{sum_val/cnt:.1f}")
 
 
