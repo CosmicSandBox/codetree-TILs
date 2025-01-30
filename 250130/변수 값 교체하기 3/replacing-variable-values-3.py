@@ -5,4 +5,4 @@ temp = a
 a = b
 b = a
 
-print(a\nb)
+print(f"{a}\n{b}")
