@@ -1,3 +1,3 @@
 a, b, c = map(int, input().split('-'))
 
-print(f"{a}-{c}-{b}")
+print(f"010-{c}-{b}")
