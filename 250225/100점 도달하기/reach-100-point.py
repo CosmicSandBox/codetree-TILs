@@ -1,13 +1,13 @@
 N = int(input())
 
 for i in range(N, 100+1, 1):
-    if N >= 90 :
+    if i >= 90 :
         print('A', end=' ')
-    elif N >= 80 :
+    elif i >= 80 :
         print('B', end=" ")
-    elif N >= 70 :
+    elif i >= 70 :
         print('C', end=" ")
-    elif N >= 60 :
+    elif i >= 60 :
         print('D', end=" ")
     else :
         print('F', end=" ")
