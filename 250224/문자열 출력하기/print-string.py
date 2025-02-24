@@ -1,6 +1,6 @@
 N = int(input())
 
 a = 1
-while a <= N
+while a <= N :
     print("LeebrosCode")
     a += 1
