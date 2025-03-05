@@ -3,8 +3,8 @@ cnt = 0
 
 for i in range (10):
     a = int(input())
-    if i >= 0 and i <= 200 :
-        sum_val += i
+    if a >= 0 and a <= 200 :
+        sum_val += a
         cnt += 1
 
 print(sum_val, end =" ")
