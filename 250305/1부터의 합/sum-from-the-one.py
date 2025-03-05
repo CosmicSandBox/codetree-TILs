@@ -6,4 +6,5 @@ for i in range (1, 101, 1):
     if sum_val >= N :
         break
 
-print(sum_val)
+
+print(i)
