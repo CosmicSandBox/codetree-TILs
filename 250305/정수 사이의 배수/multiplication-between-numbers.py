@@ -7,5 +7,5 @@ for i in range (A, B+1, 1):
         sum_val += i
         cnt += 1
 
-print(sum_val)
+print(sum_val, end=" ")
 print(f"{sum_val/cnt:.1f}")
