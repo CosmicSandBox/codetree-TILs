@@ -5,7 +5,7 @@ for i in range (1, N+1, 1):
     if N % i == 0 :
         yak += i
 
-if yak == N :
+if yak-N == N :
     print('P')
 else :
     print('N')
