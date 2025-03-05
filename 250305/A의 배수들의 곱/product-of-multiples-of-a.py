@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 
-prod = 0
+prod = 1
 
 A, B = map(int, input().split())
 
