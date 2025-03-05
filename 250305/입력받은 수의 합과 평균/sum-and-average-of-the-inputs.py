@@ -1,5 +1,6 @@
 N = int(input())
 sum_val = 0
+cnt = 0
 
 for i in range (N):
     a = int(input())
