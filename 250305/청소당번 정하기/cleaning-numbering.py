@@ -7,7 +7,7 @@ cnt_toilet = 0
 # 3일마다 복도 청소
 # 12일 마다 화장실 청소
 
-for i in range (n):
+for i in range (1,n+1):
     if i % 2 == 0 and i % 3 != 0 and i % 12 != 0:
         cnt_class += 1
     elif i % 3 == 0 and i % 12 != 0 :
