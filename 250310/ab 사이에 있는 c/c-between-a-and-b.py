@@ -1,13 +1,13 @@
 a, b, c = map(int,input().split())
 
-satisfied = True
+satisfied = 0
 for i in range (a, b+1):
     if i%c == 0 and i >= a and c <= b :
-        satisfied = True
+        satisfied += 1
     else :
-        satisfied = False
+        continue
 
-if satisfied == True :
+if satisfied >= 1 :
     print("YES")
 else :
     print("NO")
