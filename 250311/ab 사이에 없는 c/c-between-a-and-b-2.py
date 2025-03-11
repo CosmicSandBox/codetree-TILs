@@ -7,6 +7,6 @@ for i in range (a, b+1):
         cnt += 1
 
 if cnt >= 1:
-    print("YES")
-else :
     print("NO")
+elif cnt == 0:
+    print("YES")
