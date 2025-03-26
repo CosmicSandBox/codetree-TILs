@@ -1,42 +1,15 @@
-N = int(input()) # 5
-temp = N
-if N % 2 != 0 :
-    a = int((N-1)//2)
-else :
-    a = int(N//2)
+N = int(input())
 
-k = N-a
-temp_a = a
+# 첫 줄
+print("* " * N)
 
-for i in range (N): # 0, 1, 2, 3, 4
-    if (N % 2 != 0 and i % 2 == 0) or (N%2 == 0 and i % 2 != 0):
-        for j in range (temp):
-            print("*",end=" ")
-        temp -= 1
-        print()
+# 위쪽: 1부터 N-1까지
+for i in range(1, N):
+    print("* " * i)
 
-    else :
-        for k in range (i):
-            print("*",end=" ")
-        print()
+# 아래쪽: N-1부터 1까지
+for i in range(N-1, 0, -1):
+    print("* " * i)
 
-for l in range (N): # 0,1,2,3,4
-    
-    if (N % 2 != 0 and l % 2 == 0) or  (N%2 == 0 and l % 2 != 0):
-        for m in range (k):
-            print("*", end=" ")
-        k += 1
-        print()
-
-    else :
-        for n in range (temp_a):
-            print("*", end=" ")
-        temp_a -= 1
-        print()
-    
-    
-
-
-
-        
-
+# 마지막 줄
+print("* " * N)
